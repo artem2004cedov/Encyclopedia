@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="planets">
+        <item>земля</item>
+        <item>юпитер</item>
+        <item>сатурн</item>
+        <item>марс</item>
+        <item>венера</item>
+    </string-array>
+
+    <string-array name="stars">
+        <item>Веритате</item>
+        <item>Нембус</item>
+        <item>Альферац</item>
+        <item>Мирах</item>
+        <item>Аламак</item>
+    </string-array>
+
+    <string-array name="travel">
+        <item>1	Цели полёта</item>
+        <item>2	Стратегия полёта</item>
+        <item>3	Кинематика межзвёздных полётов</item>
+        <item>4	Сверхсветовое движение</item>
+        <item>5	Проблемы полёта</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/id_favorite"
+        android:title="@string/favorite" />
+
+    <item android:title="@string/cosmos">
+        <menu>
+            <item
+                android:id="@+id/id_planets"
+                android:title="@string/planet" />
+            <item
+                android:id="@+id/id_starts"
+                android:title="@string/stars" />
+            <item
+                android:id="@+id/id_travel"
+                android:title="@string/travel" />
+        </menu>
+    </item>
+
+    <item android:title="@string/Words">
+        <menu>
+            <item
+                android:id="@+id/id_smart"
+                android:title="@string/smart" />
+            <item
+                android:id="@+id/id_filosof"
+                android:title="@string/filosof" />
+            <item
+                android:id="@+id/id_umer"
+                android:title="@string/umer" />
+        </menu>
+    </item>
+
+    <item android:title="@string/rastenia">
+        <menu>
+            <item
+                android:id="@+id/id_tviti"
+                android:title="@string/tsviti" />
+            <item
+                android:id="@+id/id_derevo"
+                android:title="@string/derevia" />
+            <item
+                android:id="@+id/id_danger"
+                android:title="@string/danger" />
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Encyclopedia</string>
+    <string name="cosmos">Космос</string>
+    <string name="planet">Планеты</string>
+    <string name="favorite">Избранные</string>
+    <string name="danger">Опастные</string>
+    <string name="awesome">Удивительные</string>
+    <string name="stars">звезды</string>
+    <string name="travel">Путешествия</string>
+    <string name="Words">Цитаты</string>
+    <string name="smart">умные фразы</string>
+    <string name="filosof">Философы</string>
+    <string name="umer">юмор</string>
+    <string name="rastenia">Растения</string>
+    <string name="tsviti">цветы</string>
+    <string name="derevia">деревья</string>
+
+    <string name="fonds">AbrilFatface-Regular.ttf</string>
+</resources>
