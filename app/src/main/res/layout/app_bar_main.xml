@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
@@ -21,7 +22,16 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <!--в нутри лит виев -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bar">
 
-    <include layout="@layout/main_content" />
+        <include
+            android:id="@+id/include"
+            layout="@layout/main_content"
+            app:layout_anchorGravity="center" />
+    </RelativeLayout>
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</RelativeLayout>
